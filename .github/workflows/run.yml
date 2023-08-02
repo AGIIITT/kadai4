@@ -3,5 +3,5 @@ on: [push]
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
-      steps:
-        - runs: ./test.sh
+    steps:
+      - runs: ./test.sh
